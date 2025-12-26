@@ -1,0 +1,5 @@
+{
+  "name": "Stoa Notes",
+  "description": "A Stoic-principled, client-side encrypted note-taking application designed for focus, reflection, and privacy. Features Markdown support, daily journals, and deep privacy.",
+  "requestFramePermissions": []
+}

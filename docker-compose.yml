@@ -1,0 +1,12 @@
+
+version: '3.8'
+
+services:
+  stoa-notes:
+    build: .
+    container_name: stoa-notes
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    labels:
+      - "description=Stoic-principled encrypted note-taking app"
